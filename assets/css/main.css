@@ -9,16 +9,16 @@
 
 /* Reset */
 
-	@font-face { 
+	@font-face {
 		font-family:'Mostra';
-		src:url('../fonts/Mostra-Nuova_Regular.ttf'); 
+		src:url('../fonts/Mostra-Nuova_Regular.ttf');
 		font-weight:normal;
 		font-style:normal;
 	}
-	
-	@font-face { 
+
+	@font-face {
 		font-family:'Mostra-Light';
-		src:url('../fonts/Mostra-Nuova_Light.ttf'); 
+		src:url('../fonts/Mostra-Nuova_Light.ttf');
 		font-weight:normal;
 		font-style:normal;
 	}
@@ -31,11 +31,18 @@
 		font-family: Mostra-Light;
 		vertical-align: baseline;
 	}
-	
+
 	p.default,
 	p.default b,
 	p.default a {
 		font-family: "Source Sans Pro", sans-serif;
+	}
+
+	h1.underline{
+		border-bottom: 3px solid #ffffff;
+    padding-bottom: 5px;
+    margin: 0 200px 16px 200px;
+    display: block;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -67,14 +74,14 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-	
-	@font-face { 
+
+	@font-face {
 		font-family:'EloquentJF';
-		src:url('../fonts/EloquentJF-Pro_Regular.ttf'); 
+		src:url('../fonts/EloquentJF-Pro_Regular.ttf');
 		font-weight:normal;
 		font-style:normal;
 	}
-	
+
 	.eloquentjf {
 		font-family: EloquentJF;
 	}
@@ -696,7 +703,7 @@
 			.image.main img {
 				width: 100%;
 			}
-			
+
 		.image-custom {
 			margin: 10px 0 2.5rem 0 !important;
 		}
@@ -1126,7 +1133,7 @@
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/cairn.jpeg");
+			background-image: url("../../images/bg5.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1290,6 +1297,7 @@
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+				background-color: rgba(0, 0, 0, 0.1);
 			}
 
 				#header .content .inner > :last-child {
@@ -1334,6 +1342,7 @@
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					background-color: rgba(0, 0, 0, 0.5);
 				}
 
 					#header nav ul li a:hover {
