@@ -1580,6 +1580,8 @@
 					height: 2.25rem;
 					background-size: 14px 14px;
 				}
+			#portfolio .project .types { display: block;}
+			#portfolio .project .type { margin-bottom: 5px !important;}
 
 		}
 
@@ -1590,6 +1592,35 @@
 			}
 
 		}
+
+/* Portfolio */
+
+#portfolio .project .marker {
+	display: inline-block;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+#portfolio .project p {
+	margin-bottom: 0;
+    padding-left: 32px;
+}
+
+#protfolio .project .types { display: inline-block}
+#portfolio .project .type {
+	display: inline-block;
+    padding: 0px 6px;
+    border-radius: 5px;
+    margin: 0 2px;
+    font-size: 13px;
+}
+
+#portfolio .project .audio { background-color: #754692; }
+#portfolio .project .video { background-color: #529246; }
+#portfolio .project .programming { background-color: #4186c1; }
+#portfolio .project .art { background-color: #af3fa1; }
+#portfolio .project .middleware { background-color: #bd6e0c; }
+
 
 /* Footer */
 
