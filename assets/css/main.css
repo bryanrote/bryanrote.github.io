@@ -1290,6 +1290,7 @@
 				padding: 3rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
+				background-color: rgba(0, 0, 0, 0.1);
 			}
 
 				#header .content .inner > :last-child {
@@ -1334,6 +1335,7 @@
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					background-color: rgba(0, 0, 0, 0.5);
 				}
 
 					#header nav ul li a:hover {
